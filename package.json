@@ -28,5 +28,8 @@
     "extends": [
       "wesbos"
     ]
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.1"
   }
 }
