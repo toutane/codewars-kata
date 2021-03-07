@@ -1,4 +1,4 @@
-import BN from "bignumber.js"
+import BN from 'bignumber.js';
 
 function solve(ar) {
   let res = [];
@@ -15,7 +15,7 @@ function solve(ar) {
       i += 2;
     }
   }
-  return res.map(num => BN(num).abs());
+  return res.map((num) => BN(num).abs());
 }
 
 console.log(solve([2, 1, 3, 4]));

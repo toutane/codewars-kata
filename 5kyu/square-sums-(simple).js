@@ -23,11 +23,9 @@ function squaresSumsRow(n) {
   let firstItem = 1;
   let hello = null;
   Object.keys(data).map((x) => (data[x].length === 1 ? (hello = x) : null));
-  Object.keys(data).map((x) =>
-    data[x].find((e) => e === parseInt(hello, 10)) !== undefined
-      ? (firstItem = parseInt(x, 10))
-      : null
-  );
+  Object.keys(data).map((x) => (data[x].find((e) => e === parseInt(hello, 10)) !== undefined
+    ? (firstItem = parseInt(x, 10))
+    : null));
   // console.log(firstItem);
   const output = [data[firstItem][0], firstItem, data[firstItem][1]];
   // while (output.length !== n) {
