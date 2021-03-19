@@ -20,6 +20,7 @@
     "rules": {
         "no-console": 0,
         "no-return-assign": ["error", "except-parens"],
-        "max-len": 0
+        "max-len": 0,
+        "no-loop-func": 0
     }
 }
