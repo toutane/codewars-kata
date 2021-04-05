@@ -16,6 +16,9 @@ func main() {
 	// Expected: 74 (max speed "floor")
 
 	str := "ZpglnRxqenU"
-	fmt.Println(kata7.Accum(str))
+	kata7.Accum(str)
 	// Expected: "Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu"
+
+	fmt.Println(kata7.Solution("abc", "bc"))
+	// Expected: true
 }
