@@ -1,9 +1,10 @@
 function solve(arr) {
-  const res = []
+  const res = [];
   arr.map((x, i, arr) => {
-    if (!arr.slice(i+1).some(q => q>=x)) {res.push(x)
-    console.log(res)
-    }       
-  })
-  return res
-  };
+    if (!arr.slice(i + 1).some((q) => q >= x)) {
+      res.push(x);
+      console.log(res);
+    }
+  });
+  return res;
+}
