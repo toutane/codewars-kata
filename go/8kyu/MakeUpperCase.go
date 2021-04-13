@@ -1,4 +1,4 @@
-package kata
+package kata8
 
 import "strings"
 
